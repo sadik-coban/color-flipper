@@ -1,0 +1,16 @@
+#navbar {
+    background: rgb(228, 228, 228);
+    margin:0;
+    padding: 15px;
+    text-align: center;
+}
+ul, li
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-size: 30px;
+}
