@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from 'react-helmet';
 import "./Body.css";
+
 class Body extends React.Component {
   constructor(props) {
     super(props);
@@ -11,8 +12,6 @@ class Body extends React.Component {
     
   }
   handleClick() {
-    // let colors = ["pink", "red", "blue", "beige"];
-    // let randomColor = Math.floor(Math.random() * colors.length);
     this.setState({
       color: "#" + Math.floor(Math.random()*16777215).toString(16),
     });
