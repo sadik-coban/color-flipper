@@ -2,4 +2,4 @@
 Color flipper app with react.js
 
 npm install
-np run dev
+npm run dev
